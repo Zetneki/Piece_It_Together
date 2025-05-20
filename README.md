@@ -22,3 +22,18 @@ This project was created during the 4th semester of university studies.
 
 ## Project Structure
 
+/project-root
+│
+├── index.html # Main page displaying forum topics
+├── forum.html # Forum detail view
+├── header.html # Reusable header loaded dynamically
+├── style.css # Stylesheet for layout and design
+├── main.js # jQuery script handling interactivity
+└── README.md # Project documentation (this file)
+
+## Setup Instructions
+
+1. Clone or download the repository.
+2. Open `index.html` in your browser.
+3. Ensure JavaScript is enabled.
+4. No backend or server is required — all functionality is client-side.
