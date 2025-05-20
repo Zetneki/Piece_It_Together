@@ -20,17 +20,6 @@ This project was created during the 4th semester of university studies.
 - CSS3
 - jQuery (JavaScript library)
 
-## Project Structure
-
-/project-root
-│
-├── index.html # Main page displaying forum topics
-├── forum.html # Forum detail view
-├── header.html # Reusable header loaded dynamically
-├── style.css # Stylesheet for layout and design
-├── main.js # jQuery script handling interactivity
-└── README.md # Project documentation (this file)
-
 ## Setup Instructions
 
 1. Clone or download the repository.
