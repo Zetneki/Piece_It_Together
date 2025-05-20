@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piece It Together</title>
+    <link rel="icon" href="images/solution.png" type="image/x-icon" />
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="menu">
+      <div id="title">
+        <div id="menu-title">Piece It Together</div>
+        <img src="images/solution.png" alt="logo" id="logo" />
+      </div>
+      <div id="start">
+        <button id="start-button">Start</button>
+        <button id="continue-button">Continue</button>
+      </div>
+      <div id="picture">
+        <button id="choose-image-button">Choose Image</button>
+
+        <input
+          type="file"
+          id="image-input"
+          accept="image/*"
+          style="display: none"
+        />
+
+        <img id="image-preview" src="" alt="preview" />
+      </div>
+      <div id="middle">
+        <label for="difficulty-select" id="difficulty-label"
+          >Difficulty:
+        </label>
+        <select id="difficulty-select">
+          <option value="3" selected>3x3</option>
+          <option value="4">4x4</option>
+          <option value="5">5x5</option>
+        </select>
+        <button id="help">
+          <img
+            src="images/info_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png"
+            alt="help"
+          />
+        </button>
+      </div>
+
+      <footer id="credits">
+        <p>Zoltai Zétény Csongor - DN3KD7</p>
+      </footer>
+    </div>
+    <div id="gamearea"></div>
+  </body>
+</html>

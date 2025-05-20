@@ -1,0 +1,139 @@
+body {
+  background-color: rgb(116, 116, 116);
+}
+
+#menu {
+  width: 600px;
+  height: 600px;
+  border: 10px rgb(0, 0, 0) solid;
+  margin: 0 auto;
+  background-color: rgb(187, 187, 187);
+  position: relative;
+}
+
+#title {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu-title {
+  font-size: 50px;
+  margin-right: 40px;
+}
+
+#start {
+  margin: 100px 0 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#start-button {
+  width: 150px;
+  height: 50px;
+
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+#continue-button {
+  width: 150px;
+  height: 50px;
+
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+#help {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0);
+
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+#logo {
+  width: 80px;
+}
+
+#picture {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#choose-image-button {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  margin-left: 120px;
+}
+
+#image-preview {
+  width: 100px;
+  visibility: hidden;
+}
+
+#image-preview.show {
+  visibility: visible;
+}
+
+#middle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 75px;
+}
+
+#difficulty-label {
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+#difficulty-select {
+  width: 200px;
+  height: 50px;
+
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+#credits {
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  width: 100%;
+  font-size: 30px;
+}
+
+#gamearea {
+  border: 10px rgb(0, 0, 0) solid;
+  margin: 0 auto;
+  position: relative;
+  background-color: rgb(0, 0, 0);
+}
